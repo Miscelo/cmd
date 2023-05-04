@@ -1,0 +1,104 @@
+kill -l:Muestra una lista de algunos señales del sistema
+members:Muestra todos los miembros de un grupo
+addgroup:Create a new group      
+useradd -d /home/joe -m -g students -s /bin/bash joe:Add a new user joe to our sistem using bash and be a member of the group students
+lsmod:Comando muestra modulos cargados en el sistema
+NAST:Network Analyzer Sniffer Tool
+apt-key:Muestra una lista de argumentos que se puede usar con apt-key (add <file>, del <keyid>, export <keyid>, exportall, update, net-update, list, finger, adv).
+dpkg : Programa que instala paquetes .deb \n -i, --install \n -r, --remove -> Elimina el paquete, mantiene archivos de configuración.\n -P, --purge -> Elimina paquete y archivos de configuración.\n -s, --status -> Informaciones sobre el paquete. \n -C, --audit -> Enseña paquetes que estan instalados por partes.\n -L, --listfiles -> Enseña arhcivos que ha instalado un paquete.: 102.4
+ls:Muestra los archivos y directorios en el directorio actual
+cd:Cambia el directorio actual
+mkdir:Crea un nuevo directorio
+rm:Elimina archivos o directorios
+cp:Copia archivos o directorios
+mv:Mueve o renombra archivos o directorios
+cat:Muestra el contenido de un archivo
+grep:Busca patrones en un archivo o salida
+find:Busca archivos en un directorio de forma recursiva
+chmod:Cambia los permisos de un archivo o directorio
+chown:Cambia el propietario de un archivo o directorio
+ps:Muestra los procesos en ejecución
+kill:Envía una señal a un proceso
+top:Muestra los procesos en ejecución y su uso de recursos
+ping:Verifica la conectividad de red
+ssh:Inicia una sesión remota segura
+scp:Copia archivos de forma segura entre sistemas
+tar:Crea o extrae archivos comprimidos
+gzip:Comprime o descomprime archivos
+curl:Descarga archivos o recursos de Internet
+wget:Descarga archivos o recursos de Internet
+sed:Edita archivos de texto
+awk:Procesa y manipula texto
+cut:Extrae secciones de texto
+sort:Ordena líneas de texto
+uniq:Elimina líneas duplicadas
+head:Muestra las primeras líneas de un archivo
+tail:Muestra las últimas líneas de un archivo
+tee:Redirige la salida a un archivo y la pantalla
+echo:Muestra un mensaje en la pantalla
+export:Establece una variable de entorno
+source:Ejecuta un archivo de script
+alias:Crea un alias para un comando
+history:Muestra el historial de comandos
+man:Muestra el manual de un comando
+info:Muestra información detallada sobre un comando
+apropos:Busca comandos relacionados con una palabra clave
+which:Muestra la ubicación de un comando
+whereis:Muestra la ubicación de un comando y sus archivos relacionados
+locate:Busca archivos en todo el sistema
+df:Muestra el espacio en disco disponible y utilizado
+du:Muestra el espacio utilizado por un archivo o directorio
+free:Muestra la memoria disponible y utilizada
+uname:Muestra información sobre el sistema operativo.\n -a -> Muestra toda la información
+date:Muestra la fecha y hora actual
+cal:Muestra un calendario
+shutdown:Apaga o reinicia el sistema
+reboot:Reinicia el sistema
+passwd:Cambia la contraseña de un usuario
+useradd:Crea un nuevo usuario
+userdel:Elimina un usuario
+groupadd:Crea un nuevo grupo
+groupdel:Elimina un grupo
+sudo:Ejecuta un comando con privilegios de superusuario
+su:Cambia al usuario superusuario
+exit:Sale de la sesión shell actual
+clear:Limpia la pantalla
+Ctrl+C:Interrumpe un comando en ejecución
+Ctrl+Z:Detiene un comando en ejecución
+Ctrl+D:Sale del shell actual
+Ctrl+R:Busca en el historial de comandos
+Ctrl+A:Mueve el cursor al principio de la línea
+Ctrl+E:Mueve el cursor al final de la línea
+Ctrl+U:Borra la línea actual
+Ctrl+K:Borra desde el cursor hasta el final de la línea
+Ctrl+W:Borra la palabra anterior al cursor
+Ctrl+L:Limpia la pantalla
+Ctrl+T:Intercambia los caracteres a la izquierda y derecha del cursor
+Ctrl+Y:Pega el último texto borrado
+Ctrl+H:Borra el carácter anterior al cursor
+Ctrl+J:Mueve el cursor al principio de la siguiente línea
+Ctrl+N:Mueve el cursor a la siguiente línea
+Ctrl+P:Mueve el cursor a la línea anterior
+Ctrl+S:Detiene la salida en pantalla
+Ctrl+Q:Reanuda la salida en pantalla
+yes : Muestra una cadena de caracteres en un bucle hasta que el proceso está matado.
+uniq : Elimina lineas repetetivas dentro de un archivo. Para mostrar 2 lineas iguales dentro de un archivo que no estan seguidas, se puede usar - sort uniq -. : 103.2
+rpm:Manager de paquetes de CentOS, Red HAt, Fedora:102.5
+yum:Manager de paquetes de CentOS, RedHat, Fedora:102.5
+pstree:Muestra un arbol de procesos, de proceso padre a hijo,:103.5
+uptime:Tiempo que un usuario está conectado al sistema:103.6
+ifconfig:muestra la configuración de red actual de la interfaz de red.
+ip:muestra y configura la red, incluyendo direcciones IP, rutas y reglas de firewall.
+ping:Verifica la conectividad de red con un host remoto.
+traceroute:Muestra la ruta que sigue un paquete a través de la red.
+netstat:Muestra estadísticas de red y conexiones activas.
+route:muestra y configura la tabla de enrutamiento de red.
+nslookup:consulta un servidor de nombres de dominio para obtener información de DNS.
+dig:herramienta de línea de comandos para consultar servidores de nombres de dominio.
+hostname:muestra o configura el nombre del host de la máquina.
+iwconfig:muestra y configura la configuración de red inalámbrica.
+tracepath:Muestra la routa a una dirección IP
+finger:PDTE
+hostnamectl:PDTE
+host:PDTE
+ss:PDTE
